@@ -22,8 +22,8 @@ const ListPage = () => {
             <CardBody>
               <Image
                 alt={meme.title}
-                src={meme.image}
                 className="rounded w-full h-48 object-cover"
+                src={meme.image}
               />
             </CardBody>
             <CardFooter className="flex justify-between items-center">

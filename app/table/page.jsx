@@ -41,20 +41,13 @@ const MemeTablePage = () => {
     }, 2000);
   }
 
-  // const triggerToast = () => {
-  //   setShowToast(true);
-  //   setTimeout(() => {
-  //     setShowToast(false);
-  //   }, 2000);
-  // };
-
   return (
     <div className="max-w-5xl mx-auto p-4">
       <h1 className="text-2xl md:text-3xl font-bold mb-4 text-center">
         Meme Table
       </h1>
       {showToast && (
-        <div className="fixed top-5 right-5 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg animate-fade-in z-50">
+        <div className="fixed top-5 right-5 bg-green-500/50 text-white px-4 py-2 rounded-lg shadow-lg animate-fade-in z-50">
           ✅ Meme successfully saved!
         </div>
       )}
