@@ -61,7 +61,10 @@ const MemeTablePage = () => {
           </TableHeader>
           <TableBody>
             {memes.map((meme) => (
-              <TableRow key={meme.id}>
+              <TableRow
+                key={meme.id}
+                className="odd:bg-white even:bg-slate-50 hover:bg-slate-400"
+              >
                 <TableCell>{meme.id}</TableCell>
                 <TableCell>{meme.title}</TableCell>
                 <TableCell>{meme.likes}</TableCell>

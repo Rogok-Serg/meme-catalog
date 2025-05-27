@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="relative font-sans text-black dark:text-white">
-        <div className="absolute inset-0 bg-[url('/images/bg-abstraction.webp')] bg-cover bg-center opacity-70 -z-10 w-screen h-screen" />
+        <div className="absolute inset-0 bg-[url('/images/bg-abstraction.webp')] bg-cover bg-center opacity-70 -z-10 w-screen h-full" />
         <MemeProvider>
           <Navbar>
             <NavbarBrand>
